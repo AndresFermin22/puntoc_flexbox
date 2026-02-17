@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoGame-god | Tienda Oficial</title>
+    <link rel="stylesheet" href="../puntoc_flexbox/css/flexbox.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar__logo">🎮 VideoGame-god</div>
+        <ul class="navbar__menu">
+            <li class="navbar__item"><a href="#" class="navbar__link">Inicio</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Catálogo</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Guías</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        
+        <aside class="sidebar">
+            <h3 class="sidebar__header">Explorar</h3>
+            <ul class="sidebar__list">
+                <li class="sidebar__item"><a href="#" class="sidebar__link">🤠 Red Dead Saga</a></li>
+                <li class="sidebar__item"><a href="#" class="sidebar__link">🪓 God of War Saga</a></li>
+                <li class="sidebar__item"><a href="#" class="sidebar__link">🧟 Days Gone</a></li>
+                <li class="sidebar__item"><a href="#" class="sidebar__link">📰 Noticias</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+
+            <header class="section-header">
+                <span class="section-header__icon">🔥</span>
+                <h2 class="section-header__title">Más Vendidos</h2>
+            </header>
+
+            <section class="products-grid">
+                <article class="card">
+                    <img src="../puntoc_flexbox/css/gallery_img/rd.jpg" alt="RDR2" class="card__img">
+                    <div class="card__info">
+                        <h3 class="card__title">Red Dead Redemption 2</h3>
+                        <p class="card__desc">Arthur Morgan y la banda de Van der Linde huyen de la justicia.</p>
+                        <button class="card__btn">Comprar - $40.000</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="../puntoc_flexbox/css/gallery_img/gow.jpg" alt="GOW" class="card__img">
+                    <div class="card__info">
+                        <h3 class="card__title">God of War: Ragnarök</h3>
+                        <p class="card__desc">Kratos y Atreus deben viajar a cada uno de los nueve reinos.</p>
+                        <button class="card__btn">Comprar - $55.000</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="../puntoc_flexbox/css/gallery_img/DG.jpg" alt="Days Gone" class="card__img">
+                    <div class="card__info">
+                        <h3 class="card__title">Days Gone</h3>
+                        <p class="card__desc">Lucha por sobrevivir en un mundo post-apocalíptico brutal.</p>
+                        <button class="card__btn">Comprar - $35.000</button>
+                    </div>
+                </article>
+            </section>
+
+            <section class="pricing">
+                <h2 class="section-title">Planes de Suscripción</h2>
+                <div class="pricing__container">
+                    <div class="pricing__card">
+                        <h3 class="pricing__plan">Estándar</h3>
+                        <p class="pricing__cost">$20k</p>
+                        <span class="pricing__detail">Acceso al Foro</span>
+                    </div>
+                    <div class="pricing__card pricing__card--highlight">
+                        <h3 class="pricing__plan">PRO</h3>
+                        <p class="pricing__cost">$50k</p>
+                        <span class="pricing__detail">Descargas VIP + Skins</span>
+                    </div>
+                    <div class="pricing__card">
+                        <h3 class="pricing__plan">Ultimate</h3>
+                        <p class="pricing__cost">$80k</p>
+                        <span class="pricing__detail">Todo Incluido</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <h2 class="section-title">Capturas Épicas</h2>
+                <div class="gallery__row">
+                    <img src="../puntoc_flexbox/css/gallery_img/rd1.jpg" class="gallery__img" alt="Foto1">
+                    <img src="..//puntoc_flexbox/css/gallery_img/daysg.jpg" class="gallery__img" alt="Foto2">
+                    <img src="..//puntoc_flexbox/css/gallery_img/gow1.jpg" class="gallery__img" alt="Foto3">
+                    <img src="..//puntoc_flexbox/css/gallery_img/steam.jpg" class="gallery__img" alt="Foto4">
+                </div>
+            </section>
+
+            <section class="checklist">
+                <h2 class="section-title">Misiones Semanales</h2>
+                <ul class="checklist__box">
+                    <li class="checklist__item">Cazar el Oso Legendario (RDR2)</li>
+                    <li class="checklist__item">Mejorar el motor al nivel 3 (Days Gone)</li>
+                    <li class="checklist__item">Derrotar a Gna, Reina Valquiria (GOW)</li>
+                </ul>
+            </section>
+
+            <div class="testimonial">
+                <div class="testimonial__avatar">
+                    <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png" alt="Avatar" style="width:100%">
+                </div>
+                <div class="testimonial__content">
+                    <p class="testimonial__text">"La mejor página para encontrar guías. Gracias a ellos platiné el God of War en una semana. ¡10/10!"</p>
+                    <span class="testimonial__author">⭐⭐⭐⭐⭐ - Gamer_Pro_99</span>
+                </div>
+            </div>
+
+            <section class="contact">
+                <h2 class="section-title">Contáctanos</h2>
+                <form class="form">
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label class="form__label">Gamertag</label>
+                            <input type="text" class="form__input" placeholder="Tu usuario...">
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label">Email</label>
+                            <input type="email" class="form__input" placeholder="correo@ejemplo.com">
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label">Mensaje</label>
+                        <textarea class="form__textarea" placeholder="¿En qué te ayudamos?"></textarea>
+                    </div>
+                    <button type="submit" class="form__btn">Enviar Misión</button>
+                </form>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__col">
+            <h4>Sobre Nosotros</h4>
+            <p style="font-size: 0.9rem; color: #aaa;">Expertos en mundos abiertos.</p>
+        </div>
+        <div class="footer__col">
+            <h4>Legal</h4>
+            <a href="#" class="footer__link">Privacidad</a>
+            <a href="#" class="footer__link">Cookies</a>
+        </div>
+        <div class="footer__col">
+            <h4>Síguenos</h4>
+            <div class="footer__socials">TW | IG | YT</div>
+        </div>
+    </footer>
+
+</body>
+</html>
